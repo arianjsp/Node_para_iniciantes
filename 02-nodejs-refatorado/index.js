@@ -8,7 +8,7 @@
 const util = require('util')
 const getAddressAsync = util.promisify(getAddress)
 function getUser() {
-    //Se dê algo errado -> reject(ERROR)
+    //Se der algo errado -> reject(ERROR)
     //Se der certo -> resolve()
     return new Promise(function solvePromise(resolve, reject) {
         setTimeout(function (){
