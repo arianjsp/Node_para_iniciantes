@@ -1,4 +1,4 @@
-/* Atividade sobre callback:
+﻿/* Atividade sobre callback:
     - obter um usuario
     - obter um numero de telefone do usiario a partir do seu ID
     - obter o endereço do usuario a partir do seu ID
@@ -22,7 +22,7 @@ function getUser() {
     })
 }
 
-function getPhoneNumber(idUser, ) {
+function getPhoneNumber(idUser) {
     return new Promise(function solvePromise(resolve, reject) {
         setTimeout(() => {
             return resolve({
